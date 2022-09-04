@@ -1,0 +1,88 @@
+
+	<---------// Feedback System //--------->
+
+After extracting from the rar file you will find database file in FDS folder named "fds.sql".
+
+Create database named fds in your localhost and upload the "fds.sql" in it.
+
+In config file database is already added named "fds".
+The FDS contains three main entities 
+
+1. ADMIN
+2. FACULTY
+3. STUDENT
+
+All the pages are secure and no one other the person permitted can excess them. Sessions are properly used to ensure these things.
+If anyone wants to excess the pages or files he/she not permitted to access them then system redirects him to the "index.php"-The main login page.
+
+
+	<---------// BASIC FILES //--------->
+
+Bootstrap 4 is used in the project.No javascript, No Jquery is used in the project
+Index.php page styling is in the file "css/login.css"
+Project styling is in the files "css/style.php" and "css/mystyle.css"
+Ubuntu font is used in the 'index.php' file only
+
+
+	<---------// BASIC THINGS //--------->
+	
+Username must be atleast 6 character and could contain spaces.
+Password must be atleast 6 character.
+Old password can't be suddenly used again.
+Pagination can also be done on concerned pages.
+
+
+	<---------// ADMIN RIGHTS //--------->
+
+Admin is the main person controlling each and every thing.
+Admin can add faculty and student records and also delete them.
+Admin can modify Faculty and student details after verifying them if any error in them or wrong entry.
+Admin can see all the feedbacks coming from student and also can delete them but can't modify the feedbacks.
+Admin can also change his password.
+
+ADMIN credentials
+							
+Username : admin
+Password : 2112
+
+
+	<---------// FACULTY RIGHTS //--------->
+
+Faculty person can saw feedback given by students for him/her.Faculty person can change his/her password but can't modify his profile and contact admin to modify profile details.
+Faculty can see his profile inculding his basic information like
+
+Faculty ID
+Full Name
+User Name
+Email
+etc...
+
+FACULTY credentials 
+							//its a dummy login record
+Username : faculty
+Password : 2112
+
+
+	<---------// STUDENT RIGHTS //--------->
+
+Student can rate the faculty by answering some question asked by the system and then feedback added to the database.
+Student can only saw his/her feedback after rating faculty.Either can't modify nor delete his/her feedback.
+Besides this student can also check his/her profile but can't modify it and contact admin to modify profile details.
+Profile contains all his/her data including 
+
+College ID
+First Name
+Last Name
+User Name
+Email 
+Gender
+etc...
+
+Student can also change his/her password in dashboard.
+
+STUDENT credentials
+							//its a dummy login record
+Username : student
+Password : 2112
+
+	<---------// Developed by DELTA PROJECTS //--------->

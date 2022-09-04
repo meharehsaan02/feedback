@@ -1,0 +1,18 @@
+
+.error{
+  text-align:center;
+  padding-top: 10px;
+  font-size: 16px; 
+  color: red;
+}
+
+.added{
+  text-align:center;
+  padding-top: 10px;
+  font-size: 14px; 
+  color: green; 
+}
+
+th{
+  color: #16FB14;
+}
